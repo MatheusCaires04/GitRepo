@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+One&family=Pacifico&family=Poppins:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bgColor;
+  }
+}
+
+@layer components {
+  .scroll__color::-webkit-scrollbar {
+    @apply w-3;
+  }
+  .scroll__color::-webkit-scrollbar-track {
+    @apply bg-whiteOp;
+  }
+  .scroll__color::-webkit-scrollbar-thumb {
+    @apply bg-green rounded-lg;
+  }
+  .scroll__color::-webkit-scrollbar-thumb:hover {
+    @apply bg-green/90 rounded-lg;
+  }
+}
