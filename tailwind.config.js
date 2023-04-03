@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         global: ["Mochiy Pop One", "sans-serif"],
       },
+      screens: {
+        md: "769px",
+      },
     },
   },
   plugins: [],
